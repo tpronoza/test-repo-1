@@ -1,14 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Test Repo 1</title>
-  <link rel="stylesheet" href="main.css">
-</head>
-<body>
-  
-  <script src="main.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sorting Hat</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <!-- Container   -->
+    <div class="container" id="sort-button-landing-page">
+        <!-- Sorting  -->
+        <div class="form-floating mb-3">
+          <input type="text" class="sortBtn form-control" id="sortBtn" placeholder="SORT">
+          <label for="sortBtn">Enter Students Name</label>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <button class="btn btn-primary" type="button">Sort</button>
+          </div>
+        </div>
+        <!-- filter Buttons Row  -->
+        <div id="filterButtons" class="d-flex justify-content-between mb-3 filterButtons">
+          <button id="all-houses" class="btn btn-secondary w-100 m-1">All</button>
+          <button id="gryffindor-house" class="btn btn-danger w-100 m-1">Gryffindor</button>
+          <button id="hufflepuff-house" class="btn btn-warning w-100 m-1">Hufflepuff</button>
+          <button id="ravenclaw- house" class="btn btn-info w-100 m-1">Ravenclaw</button>
+          <button id="slytherin-house" class="btn btn-success w-100 m-1">Slytherin</button>
+        </div>
+      </div>
+
+    </div>
+    <div id="form"></div>
+    <div class="container h-100 w-100" id="students"></div>
+
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
 </html>

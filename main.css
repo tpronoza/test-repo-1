@@ -1,3 +1,95 @@
-body{
-  background-color: blueviolet;
+#sort-button-landing-page {
+  color: white;
+  margin-top: 20px
 }
+
+ body {
+  background-image: url("https://images.ctfassets.net/usf1vwtuqyxm/71J6YPxNauhFABbjHpGluJ/631bd6980b0a430d5b476ef331abb2b5/release_1_hogwarts.png"); 
+  background-color: rgb(125, 156, 196);
+   /* font-family: 'Tangerine', cursive; */
+ }
+
+ .logo {
+  margin: auto;
+  text-align: center;
+}
+
+.logo img{
+  width: 25%;
+  height: auto;
+}
+
+
+.Gryffindor {
+  background-color: rgb(126, 19, 0);
+}
+
+.Ravenclaw {
+  background-color: rgb(53, 1, 87);
+}
+
+.Slytherin {
+  background-color: rgb(10, 75, 10);
+}
+
+.Hufflepuff {
+  background-color: rgb(235, 150, 23);
+}
+
+ #sort-button {
+  width: 200px;
+  font-size: 2.5rem;
+  background-color: rgb(219, 217, 236) !important;
+  color: rgb(240, 214, 214);
+  border: 2px black solid;
+  border-radius: 50px
+
+ }
+
+ #sorting-form {
+display: flex;
+justify-content: flex-start;
+margin-top: 200px;
+margin-left: 5px;
+} 
+
+.sorting-form-information {
+  font-size: 25px;
+  margin-top: 3px;
+  width: 200px;
+  background-color: rgb(67, 63, 102) !important;
+  color: white;
+  border: 2px black solid;
+  border-radius: 30px
+}
+
+form h1{
+  color: white;
+}
+
+#student {
+  color: white
+}
+
+#students { 
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+align-content: center;
+margin-top: 50px;
+}
+
+.student-card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: 1.5rem;
+  border: .5px black solid;
+}
+
+.sortBtn{
+  background-color: rgb(212, 227, 245);
+  }
